@@ -134,4 +134,4 @@ As this was my first mini-project, this was more so for the purposes of learning
 
 As seen, I have made queries using some of the basic clauses, using WHERE to filter data, the AVG and MAX functions for aggregation, ORDER BY to order the data, etc.
 
-However, I did learn a few more techniques, such as making use of CTEs and simple subqueries to substitute in data and combining them to perform joins to the original data. Another thing I had learned was understanding that certain functions, in this case ROUND, can only take a certain numerical data type as an input.
+However, I did learn a few more techniques, such as making use of CTEs and simple subqueries to substitute in data and combining them to perform joins to the original data. I have also learned that certain functions, in this case ROUND, can only take a certain numerical data type as an input, as well as how to convert numerical types into the required type.
