@@ -63,19 +63,19 @@ Again, simple use of the WHERE clause.
 
 ````sql
 SELECT ROUND(AVG(rating)::numeric, 2) as average_rating,
-	     CASE WHEN year >= 1920 AND year < 1930 THEN '1920s'
-			  WHEN year >= 1930 AND year < 1940 THEN '1930s'
-			  WHEN year >= 1940 AND year < 1950 THEN '1940s'
-		      WHEN year >= 1950 AND year < 1960 THEN '1950s'
-		      WHEN year >= 1960 AND year < 1970 THEN '1960s'
-		      WHEN year >= 1970 AND year < 1980 THEN '1970s'
-		      WHEN year >= 1980 AND year < 1990 THEN '1980s'
-		      WHEN year >= 1990 AND year < 2000 THEN '1990s'
-		      WHEN year >= 2000 AND year < 2010 THEN '2000s'
-		      WHEN year >= 2010 AND year < 2020 THEN '2010s'
-			  WHEN year >= 2020 AND year < 2030 THEN '2020s'
-			  ELSE NULL END AS decade,
-		  COUNT(*) AS count
+	   CASE WHEN year >= 1920 AND year < 1930 THEN '1920s'
+	   		WHEN year >= 1930 AND year < 1940 THEN '1930s'
+			WHEN year >= 1940 AND year < 1950 THEN '1940s'
+	   		WHEN year >= 1950 AND year < 1960 THEN '1950s'
+	   		WHEN year >= 1960 AND year < 1970 THEN '1960s'
+	   		WHEN year >= 1970 AND year < 1980 THEN '1970s'
+	   		WHEN year >= 1980 AND year < 1990 THEN '1980s'
+	   		WHEN year >= 1990 AND year < 2000 THEN '1990s'
+	   		WHEN year >= 2000 AND year < 2010 THEN '2000s'
+	   		WHEN year >= 2010 AND year < 2020 THEN '2010s'
+	   		WHEN year >= 2020 AND year < 2030 THEN '2020s'
+	   		ELSE NULL END AS decade,
+	   COUNT(*) AS count
 	FROM imdb_top_250_movies
 	GROUP BY decade
 	ORDER BY decade DESC
