@@ -1,6 +1,14 @@
 # TO DO LIST
 
-## IMDB Project
+## General
+
+- Brainstorm some project ideas.
+- Add am Excel based project.
+- Add a Python based project.
+- Add Power BI/Tableau instances.
+- Add another SQL project.
+
+## IMDB SQL Project
 
 - Add screenshots of results to README.
 - Update README content.
