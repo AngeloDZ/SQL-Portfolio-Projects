@@ -3,7 +3,7 @@
 ## General
 
 - Brainstorm some project ideas.
-- Add am Excel based project.
+- Add an Excel based project.
 - Add a Python based project.
 - Add Power BI/Tableau instances.
 - Add another SQL project.
