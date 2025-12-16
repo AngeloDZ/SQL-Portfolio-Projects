@@ -7,14 +7,14 @@ This is my first project, mainly for the purpose of being a starter portfolio pr
 
 ## 2 Exploring and Filtering Data (Basic queries)
 
-### 2.1) Viewing all the data.
+### 2.1) Select all the data.
 
 ````sql
 SELECT * FROM imdb_top_250_movies
 ORDER BY year DESC
 ````
 
-Very simple. Added `ORDER BY` clause for convenience.
+Added `ORDER BY` clause for convenience.
 
 ### 2.2) Order all films by rating descending.
 
