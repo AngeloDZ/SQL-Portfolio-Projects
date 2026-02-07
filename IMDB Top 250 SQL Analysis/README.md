@@ -3,8 +3,6 @@
 ## 1 Overview
 This project explores the 250 top rated IMDB movies of all time using some basic SQL queries.
 
-This is my first project, mainly for the purpose of being a starter portfolio project and practicing some SQL queries on PostgreSQL, as well as learning how to use Github to display future projects.
-
 ## 2 Exploring and Filtering Data (Basic queries)
 
 ### 2.1) Select all the data.
