@@ -25,7 +25,7 @@ ORDER BY year DESC
 |149 |Top Gun: Maverick            |2022  |8.2 |2h 10m  |https://www.imdb.com/title/tt1745960/ |https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg|
 |195 |Spider-Man: No Way Home      |2021  |8.2 |2h 28m  |https://www.imdb.com/title/tt10872600/|https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg|
 
-(Limited view to the first 10 for convenience.)
+(Output limited for readability.)
 
 ### 2.2) Order all films by rating descending.
 
@@ -50,7 +50,7 @@ ORDER BY rating DESC
 |Pulp Fiction                                     |9   |8.8   |
 |The Good, the Bad and the Ugly                   |10  |8.8   |
 
-Again, very simple use of the `ORDER BY` clause.
+(Output limited for readability.)
 
 ### 2.3) Find movie(s) with the highest rating.
 
@@ -228,7 +228,7 @@ I first altered the query for 3.1, changing the `AVG` function to a `MAX`, to fi
 
 ## 4) Key Takeaways
 
-From our analysis, we can determine a few inisghts on the data:
+From this analysis, we can determine a few insights on the data:
 
 The highest rated film of all time is "The Shawshank Redemption", which was released in 1994 and received a rating of 9.3.
 
