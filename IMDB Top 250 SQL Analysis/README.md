@@ -30,25 +30,25 @@ ORDER BY year DESC
 ### 2.2) Order all films by rating descending.
 
 ````sql
-SELECT title, rank, rating FROM imdb_top_250_movies
+SELECT title, rating FROM imdb_top_250_movies
 ORDER BY rating DESC
 ````
 
-|title                                            |rank|rating|
-|-------------------------------------------------|----|------|
-|The Shawshank Redemption                         |1   |9.3   |
-|The Godfather                                    |2   |9.2   |
-|The Dark Knight                                  |3   |9.1   |
-|The Lord of the Rings: The Return of the King    |6   |9     |
-|12 Angry Men                                     |5   |9     |
-|Schindler's List                                 |7   |9     |
-|The Godfather Part II                            |4   |9     |
-|The Lord of the Rings: The Fellowship of the Ring|8   |8.9   |
-|Forrest Gump                                     |11  |8.8   |
-|Fight Club                                       |13  |8.8   |
-|Inception                                        |14  |8.8   |
-|Pulp Fiction                                     |9   |8.8   |
-|The Good, the Bad and the Ugly                   |10  |8.8   |
+|title                                            |rating|
+|-------------------------------------------------|------|
+|The Shawshank Redemption                         |9.3   |
+|The Godfather                                    |9.2   |
+|The Dark Knight                                  |9.1   |
+|The Lord of the Rings: The Return of the King    |9     |
+|12 Angry Men                                     |9     |
+|Schindler's List                                 |9     |
+|The Godfather Part II                            |9     |
+|The Lord of the Rings: The Fellowship of the Ring|8.9   |
+|Forrest Gump                                     |8.8   |
+|Fight Club                                       |8.8   |
+|Inception                                        |8.8   |
+|Pulp Fiction                                     |8.8   |
+|The Good, the Bad and the Ugly                   |8.8   |
 
 (Output limited for readability.)
 
