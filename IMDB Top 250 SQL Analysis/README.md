@@ -14,16 +14,16 @@ ORDER BY year DESC
 
 |rank|title                        |year  |rating                                       |duration|imdb_url                              |image_url                                                                                                    |
 |----|-----------------------------|------|---------------------------------------------|--------|--------------------------------------|-------------------------------------------------------------------------------------------------------------|
-|128 |One Battle After Another     |2025  |8.3|2h 41m  |https://www.imdb.com/title/tt30144839/|https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_.jpg|
+|128 |One Battle After Another     |2025  |8.3 |2h 41m  |https://www.imdb.com/title/tt30144839/|https://m.media-amazon.com/images/M/MV5BMzBkZmQ0NjMtNTZlMy00ZjdlLTg5ODUtYWFlNGM0YzE3MTg0XkEyXkFqcGc@._V1_.jpg|
 |172 |Demon Slayer: Kimetsu no Yaiba- The Movie - Infinity Castle|2025 |8.5 |2h 35m  |https://www.imdb.com/title/tt32820897/|https://m.media-amazon.com/images/M/MV5BOGQ3YWUzYjEtMTJiYy00ZjQ0LWI0YjktYjhiNGVhNGExYTM3XkEyXkFqcGc@._V1_.jpg|
 |220 |Maharaja                     |2024  |8.3 |2h 21m  |https://www.imdb.com/title/tt26548265/|https://m.media-amazon.com/images/M/MV5BOTFlMTIxOGItZTk0Zi00MTk2LWJiM2UtMzlhZWYzNjQ4N2Y3XkEyXkFqcGc@._V1_.jpg|
 |58  |Dune: Part Two               |2024  |8.4 |2h 46m  |https://www.imdb.com/title/tt15239678/|https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg|
-|180 |The Wild Robot               |2024  |8.2                                          |1h 42m  |https://www.imdb.com/title/tt29623480/|https://m.media-amazon.com/images/M/MV5BZWNiZjVlZTUtNGUwYi00MjJmLTg2MDctNWEzYTJiMzY1ODc4XkEyXkFqcGc@._V1_.jpg|
-|44  |Spider-Man: Across the Spider-Verse|2023  |8.5                                    |2h 20m  |https://www.imdb.com/title/tt9362722/ |https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_.jpg|
-|122 |Oppenheimer                  |2023  |8.3                                          |3h 0m   |https://www.imdb.com/title/tt15398776/|https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_.jpg|
-|70  |12th Fail                    |2023  |8.7                                          |2h 27m  |https://www.imdb.com/title/tt23849204/|https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_.jpg|
-|149 |Top Gun: Maverick            |2022  |8.2                                          |2h 10m  |https://www.imdb.com/title/tt1745960/ |https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg|
-|195 |Spider-Man: No Way Home      |2021  |8.2                                          |2h 28m  |https://www.imdb.com/title/tt10872600/|https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg|
+|180 |The Wild Robot               |2024  |8.2 |1h 42m  |https://www.imdb.com/title/tt29623480/|https://m.media-amazon.com/images/M/MV5BZWNiZjVlZTUtNGUwYi00MjJmLTg2MDctNWEzYTJiMzY1ODc4XkEyXkFqcGc@._V1_.jpg|
+|44  |Spider-Man: Across the Spider-Verse|2023  |8.5 |2h 20m  |https://www.imdb.com/title/tt9362722/ |https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_.jpg|
+|122 |Oppenheimer                  |2023  |8.3 |3h 0m   |https://www.imdb.com/title/tt15398776/|https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_.jpg|
+|70  |12th Fail                    |2023  |8.7 |2h 27m  |https://www.imdb.com/title/tt23849204/|https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_.jpg|
+|149 |Top Gun: Maverick            |2022  |8.2 |2h 10m  |https://www.imdb.com/title/tt1745960/ |https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg|
+|195 |Spider-Man: No Way Home      |2021  |8.2 |2h 28m  |https://www.imdb.com/title/tt10872600/|https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg|
 
 (Limited view to the first 10 for convenience.)
 
@@ -226,7 +226,19 @@ For this query, I thought I would use some sort of self join. My thought was to 
 
 I first altered the query for 3.1, changing the `AVG` function to a `MAX`, to find the maximum rating for each decade. I then used it as a CTE to perform a join on the original table, and it seemed to do the trick!
 
-## 4) What I learned
+## 4) Key Takeaways
+
+From our analysis, we can determine a few inisghts on the data:
+
+The highest rated film of all time is "The Shawshank Redemption", which was released in 1994 and received a rating of 9.3.
+
+The decade with the highest average rating per film in the IMDB Top 250 list was the 1990s, which scored an average rating of 8.41 amongst 39 films.
+
+Only 7 films have ever been rated a score of 9 or higher.
+
+There seemed to be higher rated films between the 1970s up to the early 2000s, with a slight dip in the 1980s.
+
+## 5) What I learned
 
 This first mini-project helped me learn how to use PostgreSQL and how to present SQL projects on GitHub.  
 
