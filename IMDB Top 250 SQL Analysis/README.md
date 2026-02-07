@@ -32,19 +32,21 @@ I could have just used a `WHERE` clause to select the row with the number 1 rank
 
 ### 2.4) Find the top 10 movies of all time.
 
+You can either use the `WHERE` clause with regards to the rank.
+
 ````sql
 SELECT title, rank FROM imdb_top_250_movies
 WHERE rank <= 10
 ORDER BY rank
 ````
-Two ways of doing this. First is the `WHERE` clause with regards to the rank.
+
+Or simply order by rating, then use `LIMIT`.
 
 ````sql
 SELECT title, rating FROM imdb_top_250_movies
 ORDER BY rating DESC
 LIMIT 10;
 ````
-Second is by ordering by rating, then using `LIMIT`.
 
 ### 2.5) Find all the movies with a rating of 9 or higher.
 
