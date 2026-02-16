@@ -143,11 +143,11 @@ SELECT ROUND(AVG(rating)::numeric, 2) as average_rating,
 	   		WHEN year >= 2000 AND year < 2010 THEN '2000s'
 	   		WHEN year >= 2010 AND year < 2020 THEN '2010s'
 	   		WHEN year >= 2020 AND year < 2030 THEN '2020s'
-	   		ELSE NULL END AS decade,
+	   		ELSE NULL END AS "decade",
 	   COUNT(*) AS count
 FROM imdb_top_250_movies
-GROUP BY decade
-ORDER BY decade DESC
+GROUP BY 2
+ORDER BY 2 DESC
 ````
 
 |average_rating                                   |decade|count|
