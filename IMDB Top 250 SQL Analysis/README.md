@@ -166,6 +166,17 @@ ORDER BY decade DESC
 
 To divide the data into decades, I chose to use the `CASE` clause, acting on the year column, then grouped by decade.
 
+There is also a simpler solution without using `CASE`, where I can use the fact that SQL uses integer division and create a new column for the decade using concatenation. The following produces the same result:
+
+```sql
+SELECT ROUND(AVG(rating)::numeric, 2) AS average_rating,
+	   ((year/10) * 10)::text || 's' AS "decade",
+	   COUNT(*) AS count
+	FROM imdb_top_250_movies
+	GROUP BY 2
+	ORDER BY 2 DESC;
+```
+
 ### 3.2) Find the highest rated movie(s) of each decade and their rating.
 
 ````sql
